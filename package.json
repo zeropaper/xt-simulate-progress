@@ -1,0 +1,19 @@
+{
+  "name": "simulate-progress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeropaper/xt-simulate-progress.git"
+  },
+  "author": "Valentin Vago <zeropaper@irata.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeropaper/xt-simulate-progress/issues"
+  },
+  "homepage": "https://github.com/zeropaper/xt-simulate-progress#readme"
+}
