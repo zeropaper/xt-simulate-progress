@@ -2,11 +2,11 @@ module.exports = function simulateProgress(progress, finished) {
   var i = 0;
   var interval;
   interval = setInterval(function() {
-    if (i >= 1) {
+    if (i >= 100) {
       clearInterval(interval);
     }
     else {
-      i += 0.1;
+      i += 5;
       progress(i);
     }
   }, 100);
