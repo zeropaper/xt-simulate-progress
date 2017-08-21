@@ -4,6 +4,7 @@ module.exports = function simulateProgress(progress, finished) {
   interval = setInterval(function() {
     if (i >= 100) {
       clearInterval(interval);
+      finished();
     }
     else {
       i += 5;
